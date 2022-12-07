@@ -39,7 +39,7 @@
 
 ---
 
-#Git分支
+# Git分支
 1. git branch <branch> 新建一个分支
 2. git checkout <branch> 切换到某个分支
 3. git checkout -b <newbranchname> 创建新分支的同时切换过去
@@ -48,7 +48,7 @@
 
 ---
 
-#Github
+# Github
 1. 派生：想要参与某项目，但是无推送权限
 2. 派生后，会在自己的空间中创建副本，可以推送
 3. git clone <派生链接> 将项目克隆到本地
