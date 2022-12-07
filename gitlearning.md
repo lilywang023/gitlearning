@@ -46,3 +46,13 @@
 4. git merge <branch> 将<branch>分支合并到当前分支中
 5. git branch -d <branch> 删除分支
 
+---
+
+#Github
+1. 派生：想要参与某项目，但是无推送权限
+2. 派生后，会在自己的空间中创建副本，可以推送
+3. git clone <派生链接> 将项目克隆到本地
+4. git checkout -b <branch> 新建并切换到一个新的分支
+5. 修改项目中的内容后，git commit -a -m 'instruction' 跟踪并提交修改到当前分支中
+6. git push <remote> <branch> 将新分支推送到Github副本中
+7. 在Github上点击pull request，给源项目创建拉取请求
